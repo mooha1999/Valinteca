@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/card.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/modal.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/drop-down.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Modal start -->
+    <div class="modal card" id="modal">
+      <div class="modal-container">
+        <img id="modal-img" />
+        <h2><b id="modal-name"></b></h2>
+        <p id="modal-price" class="price"></p>
+        <button id="modal-button"></button>
+      </div>
+    </div>
+    <!-- Modal end -->
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <i class="fas fa-cart-shopping" id="cart"></i>
+      <div id="drop-down">
+        <ul class="drop-down-list" id="drop-down-list"></ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Main start -->
+    <main class="main" id="main"></main>
+    <!-- Main end -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

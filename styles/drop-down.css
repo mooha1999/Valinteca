@@ -1,0 +1,24 @@
+#drop-down{
+  position: absolute;
+  width: 100%;
+  display: none;
+  /* padding: 2rem; */
+}
+.drop-down-list{
+  list-style-type: none;
+  background-color: #0077b6;
+  margin: auto;
+  width: fit-content;
+}
+.drop-down-item{
+  border: 1px solid black;
+  width: fit-content;
+  display: flex;
+  margin: auto;
+}
+.drop-down-item img{
+  max-width: 3rem;
+}
+.drop-down-item > * {
+  margin: 0.5rem;
+}
