@@ -34,6 +34,9 @@
     if (ev.target === modal) {
       modal.style.display = "none";
     }
+    else if(ev.target === dropDown) {
+      dropDown.style.display = 'none'
+    }
   };
   // Save to local storage
   window.onunload = () => {
@@ -44,7 +47,7 @@
   // toggle drop down on click
   cart.onclick = () => {
     if (!dropDown.style.display || dropDown.style.display === 'none')
-      dropDown.style.display = 'block';
+      dropDown.style.display = 'inline-block';
     else
       dropDown.style.display = 'none'
   }

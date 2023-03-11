@@ -1,8 +1,9 @@
 #drop-down{
   position: absolute;
-  width: 100%;
-  display: none;
-  /* padding: 2rem; */
+  /* width: 100%; */
+  display: inline-block;
+  transform: translateX(-50%);
+  /* padding: -0.5rem; */
 }
 .drop-down-list{
   list-style-type: none;
